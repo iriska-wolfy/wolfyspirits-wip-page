@@ -11,7 +11,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100svh;
-  padding: 80px;
+  padding: clamp(70px, 15vw, 80px);
   gap: 36px;
 }
 
@@ -19,4 +19,5 @@
   font-size: clamp(36px, 7vw, 56px);
   font-weight: 700;
   line-height: 130%;
+  padding-bottom: 80px;
 }

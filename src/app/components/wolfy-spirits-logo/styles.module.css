@@ -1,6 +1,6 @@
 .container {
   width: auto;
-  height: clamp(64px, 20vw, 96px);
+  height: clamp(64px, 15vw, 96px);
 }
 
 .fadeIn {
